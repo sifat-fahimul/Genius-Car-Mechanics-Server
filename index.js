@@ -36,7 +36,6 @@ async function run() {
             res.json(service);
         })
 
-
         //POST API
         app.post('/services', async (req, res) => {
             const service = req.body;
